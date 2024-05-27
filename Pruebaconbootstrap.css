@@ -126,7 +126,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40vh;
+    height: 50vh;
 }
 
 .containeruno {
@@ -148,7 +148,7 @@ h1 {
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 20px;
     margin: 20px 0;
     color: black;
 }
@@ -218,6 +218,91 @@ p {
     text-align: center;
 }
 .main-content img {
-    width: 250px;
+    width: 200px;
     margin-bottom: 20px;
+}
+.team img {
+    width: 120px;
+    border-radius: 50%;
+    
+}
+
+
+
+.backgroundcinco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+
+.logo-containercinco {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+..logo-containercinco {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+.logo-background {
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-size: cover;
+    
+}
+
+.logocinco {
+    width: 30px;
+    height: 10px;
+    background-size: contain;
+}
+
+
+.store-buttonscinco {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.store-buttoncinco img {
+    height: 100px;
+    margin: 600px 100px 10px;
+}
+
+.address, .social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.social-media {
+    align-items: flex-end;
+}
+.social-icons a {
+    margin: 0 10px;
+}
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+.copyright {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.containercuatrotexto{
+    text-align: center;
 }
